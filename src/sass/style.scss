@@ -59,8 +59,8 @@ header {
     .overlay {
         background: linear-gradient(
             to right,
-            rgba(62, 103, 135, 0.8),
-            rgba(159, 210, 225, 0.8)
+            rgba(83, 70, 102, 0.7),
+            rgba(159, 210, 225, 0.6)
         );
         min-height: 100vh;
         .carousel-item {
@@ -113,7 +113,7 @@ section.services {
         padding: 30px;
         margin-bottom: 10px;
         transition: 1s all ease-in-out;
-        background-color: rgba(159, 210, 225, 0.3);
+        background-color: rgba(83, 70, 102, 0.3);
         &:hover {
             transform: translatey(-15px);
         }
@@ -139,7 +139,7 @@ section.services {
             padding: 5px;
             font-size: 15px;
             line-height: 21px;
-            background-color: rgba(159, 210, 225, 0.3);
+            background-color: rgba(83, 70, 102, 0.3);
             color: #555;
             border: 1px solid rgba(0,0,0,.125);
             opacity: 0;
@@ -157,8 +157,8 @@ section.services {
     overflow-x: hidden;
     background: linear-gradient(
             to right,
-            rgba(62, 103, 135, 0.7),
-            rgba(222, 244, 228, 0.8)
+            rgba(83, 70, 102, 0.7),
+            rgba(159, 210, 225, 0.6)
         );
     #latest-company-projects{
         width: 80%;
@@ -167,7 +167,7 @@ section.services {
             margin-bottom: 20px;
             margin-top: 20px;
             transform: scale(1);
-            opacity: 0.5;
+            opacity: 0.7;
             transition: all ease .3s;
             &:hover{
                 transform: scale(1.09);
