@@ -104,7 +104,7 @@ header {
 }
 // Services
 section.services {
-    padding: 50px 0;
+    padding: 80px 0;
     min-height: 700px;
     .services-title {
         h3 {
@@ -118,8 +118,8 @@ section.services {
         padding: 30px;
         margin-bottom: 10px;
         transition: 1s all ease-in-out;
-        background-color: rgba(83, 70, 102, 0.3);
-        // background-color: rgba(159, 210, 225, 0.3);
+        background-color: transparent;
+        box-shadow: 15px 0 50px #534666;
         &:hover {
             transform: translatey(-15px);
         }
@@ -145,7 +145,8 @@ section.services {
             padding: 5px;
             font-size: 15px;
             line-height: 21px;
-            background-color: rgba(83, 70, 102, 0.3);
+            background-color: transparent;
+            box-shadow: 15px 0 50px #534666;
             color: #555;
             border: 1px solid rgba(0,0,0,.125);
             opacity: 0;
