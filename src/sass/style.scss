@@ -32,6 +32,10 @@ nav.navbar {
             color: $main-color;
         }
     }
+    .navbar-nav .nav-item a.nav-link.active{
+        background-color: $main-color;
+        color: $hover-color;
+    }
 }
 nav.navbar.noTransparrent {
     background-color: #fff;
@@ -42,10 +46,10 @@ nav.navbar.noTransparrent {
             background-color: $main-color;
             color: $hover-color;
         }
-        &.active{
-            background-color: $main-color;
-            color: $hover-color;
-        }
+        // &:active{
+        //     background-color: $main-color;
+        //     color: $hover-color;
+        // }
     }
     button.navbar-toggler {
         color: $main-color;
@@ -59,8 +63,9 @@ header {
     .overlay {
         background: linear-gradient(
             to right,
-            rgba(83, 70, 102, 0.7),
-            rgba(159, 210, 225, 0.6)
+            rgba(83, 70, 102, 0.8),
+            rgba(159, 210, 225, 0.6)  /*rgba(62, 103, 135, 0.8),
+            rgba(159, 210, 225, 0.8)*/
         );
         min-height: 100vh;
         .carousel-item {
@@ -114,6 +119,7 @@ section.services {
         margin-bottom: 10px;
         transition: 1s all ease-in-out;
         background-color: rgba(83, 70, 102, 0.3);
+        // background-color: rgba(159, 210, 225, 0.3);
         &:hover {
             transform: translatey(-15px);
         }
